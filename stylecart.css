@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #333    ;
+    overflow-x: hidden;
+    position: relative;
+}
+/* .showcase{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90vh;
+    padding: 0rem 15% 0vh 15%;
+    overflow: hidden;
+    flex-basis: 25REM;
+    object-fit: cover;
+} */
+.showcase-title{
+    color: white;
+    font-size: 2.3rem;
+    float: right;
+    position: absolute;
+   
+   
+    width: 300px; 
+    left: 700px;
+    right: 50px;
+    bottom: -290px;
+   
+    
+
+    
+}
+
+.showcase-subtitle{
+    color: wheat;
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+    position: absolute;
+    width: 300px; 
+    left: 700px;
+    right: 50px;
+    bottom: -350px;
+    
+    
+}
+#logo{
+    color: gold;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+nav{
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 0.8rem 5%;
+    background: black;
+    margin: auto;
+    z-index: 2;
+position: relative;
+    
+}
+.showcase-button{
+    padding: 0.5rem 2rem;
+    color: black;
+    border: none;
+    font-weight:500 ;
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+background: none;
+border: none;
+color: white;
+border: 1px solid white;
+font-size: 1rem;
+text-decoration: none;
+align-self: flex-start;
+cursor: pointer;
+position: absolute;
+
+left: 700px;
+
+bottom: -390px;
+}
+.showcase-arrow{
+   
+    right: 15% ;
+    bottom: 10%;
+    color: black;
+    float: right;
+    position: absolute;
+    margin-right: 30px ;
+    bottom: -200px;
+}
+.hero-img{
+    position: relative;
+    flex: 1;
+    flex-basis: 25rem;
+    
+    
+    
+}
+.hero-img img {
+    
+   display: flex;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   top: -40px;
+   min-height: 70vh;
+   padding: 0rem 15% 0vh 15%;
+   overflow: hidden;
+   flex-basis: 25REM;
+   
+}
+.line1 , .line2 {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: white;
+    pointer-events: none;
+}
+.explore{
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    text-decoration: none;
+    align-self: flex-start;
+    cursor: pointer;
+    top: 50%;
+    }
+    .nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+        opacity: 1;
+        clip-path: circle(50px at -100% -10%);
+        -webkit-clip-path: circle(50px at -100% -10%);
+       
+    } 
+    .burger{
+    cursor: pointer;
+}
+.nav-links{
+    font-size: 3rem;
+    flex-basis: 30rem;
+    color: black;
+}
+.nav-links h3{
+    padding: 3rem 0rem ;
+    color: black;
+    cursor: pointer;
+}
+.contact{
+    color: black;
+    font-size: 1rem;
+    flex-basis: 30rem;
+}
+
+.scrollmagic-pin-spacer{
+    position: static !important;
+}
+body.hide{
+    overflow: hidden;
+/* het dient om je niet laten te scrollen */
+}
+.user{
+    display: flex;
+    color:white;
+   align-items: center;
+   justify-content: center;
+   bottom: -100;
+   position: relative;
+   align-self: center;
+    
+    
+}
+.email{
+    border: gold;
+}
